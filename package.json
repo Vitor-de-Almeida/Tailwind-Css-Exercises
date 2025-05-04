@@ -1,0 +1,22 @@
+{
+  "name": "js-ref",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./rocketsDaveExercise/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^3.4.17"
+  },
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.5"
+  }
+}
